@@ -8,4 +8,91 @@ a {
 }
 a:hover {
   color: black;
+}
+
+header .barbox .minibox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 70px;
+  margin-bottom: 2px;
+  border: 1px solid rgba(58, 94, 82, 0.5568627451);
+  border-radius: 40px;
+  background-color: rgba(99, 158, 138, 0.7450980392);
+  transition: 1s;
+}
+header .barbox .minibox:hover {
+  background-color: #8bffec;
+  height: 40px;
+  width: 100px;
+}
+header .barbox .minibox a {
+  color: #14302b;
+  transition: 1s;
+}
+header .barbox .minibox a:hover {
+  font-size: 18px;
+  color: #3e776d;
+}
+
+@media screen and (min-width: 200px) {
+  header {
+    background-color: rgba(123, 207, 179, 0.5568627451);
+  }
+  .box {
+    margin: 7px 0;
+  }
+  .box nav a {
+    display: none;
+  }
+  .box .iconcup i {
+    font-size: 22px;
+  }
+  .box .iconbar {
+    font-size: 20px;
+  }
+  .barbox {
+    display: none;
+  }
+}
+@media screen and (min-width: 426px) {
+  header {
+    background-color: rgba(101, 165, 144, 0.5568627451);
+  }
+  .box {
+    margin: 7px 0;
+  }
+  .box nav a {
+    display: none;
+  }
+  .box .iconcup i {
+    font-size: 25px;
+  }
+  .box .iconbar {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 770px) {
+  header {
+    background-color: rgba(58, 94, 82, 0.5568627451);
+  }
+  .box {
+    margin: 10px 0;
+  }
+  .box nav a {
+    display: inline-block;
+    font-size: 22px;
+    color: #14302b;
+    margin-right: 40px;
+  }
+  .box nav a:hover {
+    color: #8bffec;
+  }
+  .box .iconcup i {
+    font-size: 30px;
+  }
+  .box .iconbar, .box .barbox {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
