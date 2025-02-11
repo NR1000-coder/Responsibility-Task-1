@@ -75,10 +75,7 @@ header .barbox .minibox a:hover {
 }
 @media screen and (min-width: 770px) {
   header {
-    background-color: rgba(58, 94, 82, 0.5568627451);
-  }
-  .box {
-    margin: 10px 0;
+    background-color: rgba(62, 121, 101, 0.8823529412);
   }
   .box nav a {
     display: inline-block;
@@ -94,5 +91,186 @@ header .barbox .minibox a:hover {
   }
   .box .iconbar, .box .barbox {
     display: none;
+  }
+}
+#welcome {
+  padding-top: 70px;
+}
+
+@media screen and (min-width: 300px) {
+  .box {
+    justify-content: center;
+    justify-content: evenly;
+    text-align: center;
+  }
+  .box h1 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #243a2d;
+  }
+  .box h1 span {
+    font-size: 20px;
+    color: #44a737;
+  }
+  .box h3 {
+    font-size: 11px;
+    color: #889e91;
+  }
+  .box .textbox {
+    height: 180px;
+    width: 150px;
+    padding: 10px 0;
+    margin: 10px;
+    border: 1px solid #243a24;
+    background-color: #c2dfd4;
+    border-radius: 20px;
+  }
+  .box .textbox h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #243a24;
+  }
+  .box .textbox h4 {
+    margin: 5px 0;
+    font-size: 12px;
+    color: #889e91;
+    line-height: 1.2;
+  }
+  .box .imgbox img {
+    height: 160px;
+    width: 150px;
+    border-radius: 100%;
+    transition: 1s;
+  }
+  .box .imgbox img:hover {
+    height: 180px;
+    border-radius: 10%;
+  }
+  .btn {
+    font-size: 15px;
+    border: 1px solid #c2dfd4;
+    height: 30px;
+    background-color: #44a737;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    color: #243a24;
+    transition: 1s;
+  }
+  .btn:hover {
+    background-color: #7da79a;
+    color: #1e6914;
+    font-size: 17px;
+    height: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .box h1 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .box h1 span {
+    font-size: 35px;
+  }
+  .box h3 {
+    font-size: 17px;
+  }
+  .box .textbox {
+    height: 300px;
+    padding: 15px 0;
+  }
+  .box .textbox h2 {
+    font-size: 24px;
+    font-weight: 600px;
+  }
+  .box .textbox h4 {
+    margin: 5px 0;
+    font-size: 16px;
+    line-height: 1.2;
+  }
+  .box .imgbox img {
+    height: 280px;
+    width: 200px;
+    transition: 1s;
+  }
+  .box .imgbox img:hover {
+    height: 280px;
+    border-radius: 10%;
+  }
+  .btn {
+    font-size: 18px;
+    height: 40px;
+  }
+  .btn:hover {
+    background-color: #7da79a;
+    color: #1e6914;
+    font-size: 20px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .box {
+    width: 700px;
+    padding: 20px 20px;
+  }
+  .box h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #243a2d;
+  }
+  .box h1 span {
+    font-size: 45px;
+    color: #44a737;
+  }
+  .box h3 {
+    font-size: 20px;
+    color: #889e91;
+  }
+  .box .textbox {
+    height: 300px;
+    width: 200px;
+    padding: 20px 0;
+    margin: 10px;
+    border: 1px solid #243a24;
+    background-color: #c2dfd4;
+    border-radius: 20px;
+  }
+  .box .textbox h2 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #243a24;
+  }
+  .box .textbox h4 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #889e91;
+    line-height: 1.4;
+  }
+  .box .imgbox img {
+    height: 300px;
+    width: 280px;
+    border-radius: 100%;
+    transition: 1s;
+  }
+  .box .imgbox img:hover {
+    height: 310px;
+    border-radius: 10%;
+  }
+  .btn {
+    font-size: 20px;
+    border: 1px solid #c2dfd4;
+    height: 50px;
+    background-color: #44a737;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    color: #243a24;
+    transition: 1s;
+  }
+  .btn:hover {
+    background-color: #7da79a;
+    color: #1e6914;
+    font-size: 22px;
+    height: 60px;
   }
 }/*# sourceMappingURL=style.css.map */
